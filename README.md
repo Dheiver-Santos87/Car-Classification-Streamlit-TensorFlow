@@ -1,12 +1,22 @@
 # Image-Classification-Streamlit-TensorFlow
 A basic web-app for image classification using Streamlit and TensorFlow.
 
-It classifies the given image of a flower into one of the following five categories :-  
-1. Daisy
-2. Dandelion
-3. Rose
-4. Sunflower
-5. Tulip
+It classifies the given image of a car into one of the following five categories :-  
+/kaggle/input/cars-image-dataset/Cars Dataset/test/Hyundai Creta
+/kaggle/input/cars-image-dataset/Cars Dataset/test/Tata Safari
+/kaggle/input/cars-image-dataset/Cars Dataset/test/Swift
+/kaggle/input/cars-image-dataset/Cars Dataset/test/Mahindra Scorpio
+/kaggle/input/cars-image-dataset/Cars Dataset/test/Toyota Innova
+/kaggle/input/cars-image-dataset/Cars Dataset/test/Rolls Royce
+/kaggle/input/cars-image-dataset/Cars Dataset/test/Audi
+/kaggle/input/cars-image-dataset/Cars Dataset/train
+/kaggle/input/cars-image-dataset/Cars Dataset/train/Hyundai Creta
+/kaggle/input/cars-image-dataset/Cars Dataset/train/Tata Safari
+/kaggle/input/cars-image-dataset/Cars Dataset/train/Swift
+/kaggle/input/cars-image-dataset/Cars Dataset/train/Mahindra Scorpio
+/kaggle/input/cars-image-dataset/Cars Dataset/train/Toyota Innova
+/kaggle/input/cars-image-dataset/Cars Dataset/train/Rolls Royce
+/kaggle/input/cars-image-dataset/Cars Dataset/train/Audi
 
 ## Commands
 
@@ -28,8 +38,8 @@ Once uploaded, the model will perform inference and the output will be displayed
 
 
 ## Notes
-* A simple flower classification model was trained using TensorFlow.  
-* The weights are stored as `flower_model_trained.hdf5`.  
+* A simple car classification model was trained using TensorFlow.  
+* The weights are stored as `my_model.hdf5`.  
 * The code to train the modify and train the model can be found in `model.py`.  
 * The web-app created using Streamlit can be found in `app.py`
 
