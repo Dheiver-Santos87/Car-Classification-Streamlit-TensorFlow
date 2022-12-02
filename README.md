@@ -2,21 +2,20 @@
 A basic web-app for image classification using Streamlit and TensorFlow.
 
 It classifies the given image of a car into one of the following five categories :-  
-/kaggle/input/cars-image-dataset/Cars Dataset/test/Hyundai Creta
-/kaggle/input/cars-image-dataset/Cars Dataset/test/Tata Safari
-/kaggle/input/cars-image-dataset/Cars Dataset/test/Swift
-/kaggle/input/cars-image-dataset/Cars Dataset/test/Mahindra Scorpio
-/kaggle/input/cars-image-dataset/Cars Dataset/test/Toyota Innova
-/kaggle/input/cars-image-dataset/Cars Dataset/test/Rolls Royce
-/kaggle/input/cars-image-dataset/Cars Dataset/test/Audi
-/kaggle/input/cars-image-dataset/Cars Dataset/train
-/kaggle/input/cars-image-dataset/Cars Dataset/train/Hyundai Creta
-/kaggle/input/cars-image-dataset/Cars Dataset/train/Tata Safari
-/kaggle/input/cars-image-dataset/Cars Dataset/train/Swift
-/kaggle/input/cars-image-dataset/Cars Dataset/train/Mahindra Scorpio
-/kaggle/input/cars-image-dataset/Cars Dataset/train/Toyota Innova
-/kaggle/input/cars-image-dataset/Cars Dataset/train/Rolls Royce
-/kaggle/input/cars-image-dataset/Cars Dataset/train/Audi
+1.Hyundai Creta
+2.Tata Safari
+3.Swift
+4.Mahindra Scorpio
+5.Toyota Innova
+6.Rolls Royce
+7.Audi
+8.Hyundai Creta
+9.Tata Safari
+10.Swift
+11.Mahindra Scorpio
+12.Toyota Innova
+13.Rolls Royce
+14.Audi
 
 ## Commands
 
