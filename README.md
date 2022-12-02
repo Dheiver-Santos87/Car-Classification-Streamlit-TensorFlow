@@ -1,7 +1,7 @@
 # Image-Classification-Streamlit-TensorFlow
 A basic web-app for image classification using Streamlit and TensorFlow.
 
-It classifies the given image of a car into one of the following five categories :-  
+# It classifies the given image of a car into one of the following five categories :-  
 *1.Hyundai Creta
 *2.Tata Safari
 *3.Swift
