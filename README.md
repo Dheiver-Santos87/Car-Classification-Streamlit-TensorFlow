@@ -2,20 +2,20 @@
 A basic web-app for image classification using Streamlit and TensorFlow.
 
 It classifies the given image of a car into one of the following five categories :-  
-1.Hyundai Creta
-2.Tata Safari
-3.Swift
-4.Mahindra Scorpio
-5.Toyota Innova
-6.Rolls Royce
-7.Audi
-8.Hyundai Creta
-9.Tata Safari
-10.Swift
-11.Mahindra Scorpio
-12.Toyota Innova
-13.Rolls Royce
-14.Audi
+*1.Hyundai Creta
+*2.Tata Safari
+*3.Swift
+*4.Mahindra Scorpio
+*5.Toyota Innova
+*6.Rolls Royce
+*7.Audi
+*8.Hyundai Creta
+*9.Tata Safari
+*10.Swift
+*11.Mahindra Scorpio
+*12.Toyota Innova
+*13.Rolls Royce
+*14.Audi
 
 ## Commands
 
