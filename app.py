@@ -8,14 +8,14 @@ st.set_option('deprecation.showfileUploaderEncoding', False)
 
 @st.cache(allow_output_mutation=True)
 def load_model():
-	model = tf.keras.models.load_model('./flower_model_trained.hdf5')
+	model = tf.keras.models.load_model('./my_model.h5')
 	return model
 
 
 def predict_class(image, model):
 
 	image = tf.cast(image, tf.float32)
-	image = tf.image.resize(image, [180, 180])
+	image = tf.image.resize(image, [128, 128])
 
 	image = np.expand_dims(image, axis = 0)
 
@@ -25,9 +25,9 @@ def predict_class(image, model):
 
 
 model = load_model()
-st.title('Flower Classifier')
+st.title('Car Classifier')
 
-file = st.file_uploader("Upload an image of a flower", type=["jpg", "png"])
+file = st.file_uploader("Upload an image of a Car", type=["jpg", "png"])
 
 
 if file is None:
@@ -43,7 +43,13 @@ else:
 
 	pred = predict_class(np.asarray(test_image), model)
 
-	class_names = ['daisy', 'dandelion', 'rose', 'sunflower', 'tulip']
+	class_names = ['Audi',
+ 'Hyundai Creta',
+ 'Mahindra Scorpio',
+ 'Rolls Royce',
+ 'Swift',
+ 'Tata Safari',
+ 'Toyota Innova']
 
 	result = class_names[np.argmax(pred)]
 
