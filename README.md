@@ -39,7 +39,7 @@ Once uploaded, the model will perform inference and the output will be displayed
 ## Notes
 * A simple car classification model was trained using TensorFlow.  
 * The weights are stored as `my_model.hdf5`.  
-* The code to train the modify and train the model can be found in `model.py`.  
+* The code to train the modify and train the model can be found in `car-images-classification-using-cnn.ipynb`.  
 * The web-app created using Streamlit can be found in `app.py`
 
 
